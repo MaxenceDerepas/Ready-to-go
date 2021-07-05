@@ -1,38 +1,73 @@
-.App {
-  text-align: center;
+/* global rules */
+body {
+    font-family: "Montserrat";
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+/* Header */
+header {
+    height: 193px;
+    border-bottom: 1px solid #e5e5e5;
+    display: flex;
+    align-items: center;
+    font-weight: 400;
+    margin-bottom: 200px;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+header div {
+    margin-left: 123px;
+    width: 454px;
+    height: 80px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 48px;
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+header img {
+    height: 70px;
+    width: 100px;
 }
-
-.App-link {
-  color: #61dafb;
+/* Main */
+main {
+    width: 1006px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 200px;
+    font-size: 36px;
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.Button {
+    height: 70px;
+    width: 120px;
+    margin-bottom: 50px;
+    border: solid 1px #908f8f;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+.col-1 {
+    display: flex;
+    margin-right: 445px;
+}
+.col-ON {
+    margin-right: 71px;
+}
+.col-2 > div {
+    height: 150px;
+    width: 250px;
+    border: solid 1px #908f8f;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+/* Footer */
+footer {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    font-weight: 400;
+    font-size: 15px;
+}
+footer p span {
+    font-weight: 700;
 }
